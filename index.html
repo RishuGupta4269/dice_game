@@ -8,6 +8,7 @@
 	<title>DICE GAME</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js"></script>
 
 </head>
 <body>
@@ -18,13 +19,13 @@
 	<div id="game" class="row">
 		<div class="col-xs-6">
 			<div>
-			<h3 class="Player 1 text-center" >Player 1</h3>
+			<h3 class="Player1 text-center" >Player 1</h3>
 			<img class="img1 img-responsive" src="images/dice6.png"/>
 			</div>
 		</div>
 		<div class="col-xs-6">
 			<div>
-			<h3 class="Player 2 text-center" >Player 2</h3>
+			<h3 class="Player2 text-center" >Player 2</h3>
 			<img class="img2 img-responsive" src="images/dice6.png"/>
 			</div>
 		</div>
@@ -32,14 +33,14 @@
 
 	<div id="func" class="row">
 		<div class="col-xs-6">
-			<button type="button" class="butn"
-            onClick="rollTheDice()"> 
+			<button type="button responsive-width" class="butn"
+            onClick="rollDice()"> 
             Roll the Dice 
         	</button> 
 		</div>
 		<div class="col-xs-6">
-			<button type="button" class="butn"
-            onClick="rollTheDice()"> 
+			<button type="button responsive-width" class="butn"
+            onClick="editNames()"> 
             Change Names 
         	</button> 
 		</div>
