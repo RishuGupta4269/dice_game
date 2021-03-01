@@ -3,8 +3,8 @@ var play2="Player 2";
 
 
 function editNames(){
-	play1=prompt("Change"+ play1 +"name");
-	play2=prompt("Change"+play2+"name");
+	play1=prompt("Change "+ play1 +" name");
+	play2=prompt("Change "+play2+" name");
 
 	document.querySelector("h3.Player1").innerHTML=play1;
 	document.querySelector("h3.Player2").innerHTML=play2;
